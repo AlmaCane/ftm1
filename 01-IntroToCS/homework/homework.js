@@ -2,10 +2,10 @@
 
 
 function BinarioADecimal(num) {
- 
-  var separar = num.split("");
-  var reversa = separar.reverse();
-  var numeroalreves = reversa.map(Number);
+   
+   var separar = num.split("");
+   var reversa = separar.reverse();
+   var numeroalreves = reversa.map(Number);
 
   var arreglito = [];
   for (let i = 0; i < numeroalreves.length ; i ++) {
